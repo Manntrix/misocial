@@ -4,7 +4,7 @@ export default function NewPasswordForm() {
     return (
         <div className="forget-form-wrapper">
             <div className="stepfrm-inner">
-                <h2 className="header">Forgot Password</h2>
+                <h2 className="header">New Password</h2>
                 <Form>
                     <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                         <Form.Label>New password</Form.Label>

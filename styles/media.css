@@ -25,8 +25,7 @@
 .universal-event-search{ max-width: 90%;}
 .singleItem .content-wrap .image-style{ height: 226px!important; width: 320px!important;}
 .my-profile-wrapper .stepfrm-inner .header{ padding: 0 40px; } 
-.stepfrm-inner .form-control{ height: 46px;}
-
+.stepfrm-inner .form-control{ height: 46px;} 
 }
 
 @media (max-width: 991px) {

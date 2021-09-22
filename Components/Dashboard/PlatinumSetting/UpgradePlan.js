@@ -1,5 +1,6 @@
 import { Col, Form, Row } from "react-bootstrap";
 import { AiOutlineInfoCircle } from "react-icons/ai";
+import Link from 'next/link'
 
 export default function UpgradePlan() {
     return (
@@ -17,7 +18,9 @@ export default function UpgradePlan() {
                 </span>
                 <label>/Month</label>
             </div>
-            <button className="btn btn-next">Upgrade to Platinum</button>
+            <Link href="/dashboard/platinum-settings-next" passHref>
+                <button className="btn btn-next"> Upgrade to Platinum</button>
+            </Link>
             <p className="host-title mt-5">Enter your credit card details</p>
             <div className="form-hints-container mt-2">
 

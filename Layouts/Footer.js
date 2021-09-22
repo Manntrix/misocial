@@ -1,6 +1,7 @@
-/* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 import { Col, Form, FormControl, Row } from "react-bootstrap";
+import logo from '../public/images/misocial-logo.svg';
+import sendIcon from '../public/images/sendIcon.png';
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaYoutube } from 'react-icons/fa';
 import { AiFillInstagram } from 'react-icons/ai';
 import { GrFormClose } from 'react-icons/gr';
@@ -18,7 +19,7 @@ export default function Footer() {
                             <Col md={3} sm={3}>
                                 <div className="f-logo">
                                     <Image
-                                        src={"/images/misocial-logo.svg"}
+                                        src={logo}
                                         alt="logo"
                                     />
                                 </div>
@@ -83,7 +84,7 @@ export default function Footer() {
                             />
                             <button className="btn btn-join-now">
                                 <Image
-                                    src={"/images/sendIcon.png"}
+                                    src={sendIcon}
                                     alt="sendIcon"
                                 />
                             </button>

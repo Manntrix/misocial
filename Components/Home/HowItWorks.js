@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 import { Form, FormControl } from "react-bootstrap";
 
 export default function HowItWorks() {

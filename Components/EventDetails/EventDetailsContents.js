@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 import { Col, Form, Row, Table } from "react-bootstrap";
 import eventdetailsImage from '../../public/images/event-detailsImage.jpg'
@@ -43,7 +42,7 @@ export default function EventContents() {
                                 <li>Various versions have evolved.</li>
                             </ul>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
-                            <p>lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,</p>
+                            <p>lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
                         </div>
                         <div className="buy-ticket-wr">
                             <h3 className="tkt-title">Buy Tickets</h3>

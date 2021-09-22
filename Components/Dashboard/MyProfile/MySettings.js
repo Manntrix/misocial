@@ -1,7 +1,19 @@
-import { Form } from "react-bootstrap";
+import { Button, Form, Modal } from "react-bootstrap";
 import { IoRefresh } from 'react-icons/io5';
+import { useState } from "react";
+
+
+
 
 export default function MySettings() {
+
+    const [show, setShow] = useState(false)
+    const handleResetModal = () => {
+        setShow(true)
+    }
+    const handleModalClose = () => {
+        setShow(false)
+    }
     return (
         <>
             <Form className="form-class">
@@ -55,9 +67,45 @@ export default function MySettings() {
                 <div className="save-cancel-action">
                     <button className="btn btn-next">Save</button>
                     <button className="btn btn-cancel">Cancel</button>
-                    <button className="btn btn-reset"><IoRefresh />Reset</button>
+                    <button type="button" className="btn btn-reset" onClick={handleResetModal}><IoRefresh />Reset</button>
                 </div>
             </Form>
+
+
+            <Modal className="universalModal" show={show} onHide={handleModalClose} animation={false}>
+                <Modal.Header closeButton>
+                    <Modal.Title>Reset Password</Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                    <div className="stepfrm-inner">
+                        <h2 className="header">New Password</h2>
+                        <Form className="modal-form">
+                            <Form.Group className="mb-3" controlId="Current-password">
+                                <Form.Label>Current password</Form.Label>
+                                <Form.Control type="password" />
+                            </Form.Group>
+                            <Form.Group className="mb-3" controlId="Newpassword1">
+                                <Form.Label>New password</Form.Label>
+                                <Form.Control type="password" />
+                            </Form.Group>
+                            <Form.Group className="mb-3" controlId="Re-enter">
+                                <Form.Label>Re-enter New Password</Form.Label>
+                                <Form.Control type="password" />
+                            </Form.Group>
+                            <ul className="password-hints">
+                                <li>Minimum 8 characters.</li>
+                                <li>Include at least one lowercase character (a-z)</li>
+                                <li>Include at least one uppercase character (A-Z)</li>
+                                <li>Include at least one numeric character (0-9)</li>
+                            </ul>
+
+                            <button className="btn btn-next">Save Password</button>
+
+                        </Form>
+                    </div>
+                </Modal.Body>
+
+            </Modal>
         </>
     )
 }

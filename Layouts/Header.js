@@ -2,6 +2,9 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState } from 'react';
+import logo from '../public/images/misocial-logo.svg';
+import hambergerIcon from '../public/images/hambergerIcon.png';
+import loggedinImage from '../public/images/loggedinImage.png';
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaYoutube } from 'react-icons/fa';
 import { AiFillInstagram } from 'react-icons/ai';
 import { GrFormClose } from 'react-icons/gr';
@@ -22,7 +25,7 @@ function Header() {
         <Link href="/">
           <a>
             <Image
-              src={"/images/misocial-logo.svg"}
+              src={logo}
               alt="Picture of the website"
             />
           </a>
@@ -33,14 +36,14 @@ function Header() {
           <a className="login">Login</a>
         </Link> */}
         <div className="profile">
-          <Image src={"/images/loggedinImage.png"}
+          <Image src={loggedinImage}
             alt="loggedinImage" className="profile-image"
           />
 
           <p className="name">John</p>
         </div>
 
-        <Image src={"/images/hambergerIcon.png"} onClick={() => handleClick()}
+        <Image src={hambergerIcon} onClick={() => handleClick()}
           className="hamberger-icon" alt="hamberger icon" />
 
       </div>

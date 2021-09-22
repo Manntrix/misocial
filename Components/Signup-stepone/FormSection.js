@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Button, Form } from "react-bootstrap";
-import recaptcha from "../../public/images/recaptcha.png"
+import recaptcha from "../../public/images/recaptcha.png";
+import Link from 'next/link';
 
 export default function FormSection() {
     return (
@@ -58,7 +59,9 @@ export default function FormSection() {
 
                     <button className="btn btn-next">Next</button>
                 </Form>
-                <p className="members-already">Already a Member?<a href=""> Login Now</a></p>
+                <p className="members-already">Already a Member?
+                    <Link href="login"> Login Now</Link>
+                </p>
             </div>
 
         </div>
