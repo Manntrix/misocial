@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 import { Col, Form, FormControl, Row } from "react-bootstrap";
 import organizer from '../../public/images/organizer.jpg';
