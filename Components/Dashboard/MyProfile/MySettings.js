@@ -72,7 +72,7 @@ export default function MySettings() {
             </Form>
 
 
-            <Modal className="universalModal" show={show} onHide={handleModalClose} animation={false}>
+            <Modal className="universalModal resetPw" show={show} onHide={handleModalClose} animation={false}>
                 <Modal.Header closeButton>
                     <Modal.Title>Reset Password</Modal.Title>
                 </Modal.Header>

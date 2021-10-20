@@ -4,7 +4,7 @@ import { IoRefresh } from 'react-icons/io5';
 export default function SearchEvent() {
     return (
         <>
-            <Form className="form-class mb-4">
+            <Form className="mb-4">
 
                 <Form.Group className="mb-3" controlId="Event-name">
                     <Form.Label>Event name</Form.Label>

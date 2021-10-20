@@ -22,7 +22,7 @@ export default function MiSocial() {
                             </p>
                         </div>
                     </Col>
-                    <Col md={6}>
+                    <Col md={6} className="mysocialImg">
                         <Image src={Misocialwhy}
                         alt="Misocialwhy"
                         />

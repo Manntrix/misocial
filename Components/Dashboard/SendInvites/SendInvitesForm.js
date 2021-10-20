@@ -164,7 +164,7 @@ export default function SendInvitesForm() {
                             </label>
                         </div>
                     </div>
-                    <div className="form-values mb-4">
+                    <div className="form-values sendInvit mb-4">
                         <label className="toggleSwitch">
                             <input type="checkbox" defaultChecked />
                             <span>NO</span>

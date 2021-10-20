@@ -7,7 +7,7 @@ function Concept() {
         <div className="concept-wrapper">
             <div className="container">
             <Row>
-                <Col md={5}>
+                <Col md={5} className="concImg">
                     <Image
                     src={conceptImage}
                     alt="conceptImage"

@@ -12,7 +12,7 @@ const Banner = () => (
           <p>
             Professionals & Entrepreneurs through Live Experiences  <br />
             And<br />
-            An Event Organizer s  Passion For Events With Members
+            An Event Organizer&apos;s  Passion For Events With Members
           </p>
 
           <Form className="d-flex search-box">

@@ -9,8 +9,8 @@
 .dashboard-layout .dashboard-type{ padding-left: 305px; display: flex; align-items: center; margin-bottom: 50px;}
 .dashboard-layout .dashboard-type .menu-icon{ display: none; width: 25px; height: 25px; margin-right: 10px;}
 .dashboard-layout .dashboard-type .title{ margin: 0;}
-.leftpannel{ background: var(--white); width: 290px; margin-right: 16px; padding: 16px;}
-.right-panel{ background: var(--white); width: calc(100% - 306px); padding: 16px;}
+.leftpannel{ background: var(--white); width: 290px; margin-right: 16px; padding: 30px 18px;}
+.right-panel{ background: var(--white); width: calc(100% - 306px); padding: 40px 16px 16px 16px;}
 .user-profilename { text-align: center; border-bottom: 1px solid #E3E3E3; 
  padding-bottom: 25px; margin-bottom: 15px;}
 .user-profilename .avaterPart { width: 77px; height: 77px; border-radius: 50%;border: 1px solid var(--black)!important; }
@@ -22,7 +22,7 @@
 .sidebar .nav .nav-item { display: flex; align-items: center; margin: 12px 0;}
 .sidebar .nav .nav-item svg{ width: 22px; height: 22px;}
 .sidebar .nav .nav-item a{ margin-left: 10px;
- color: var(--label-color); font-size: 20px; font-family: var(--montserrat);
+ color: var(--label-color); font-size: 18px; font-family: var(--montserrat);
  font-weight: 500; }
  .sidebar .nav .nav-item.active .icon-image{ 
    filter: invert(66%) sepia(4%) saturate(3587%) hue-rotate(13deg) brightness(102%) contrast(76%); 
@@ -32,7 +32,7 @@
 .sidebar .nav .divider{ border-top: 1px solid #E3E3E3; margin: 30px 0;}
 .my-profile-wrapper .sign-nextstep-form{ margin: 0; width: 100%; }
 .my-profile-wrapper .stepfrm-inner .header{ border-bottom: 1px solid #E4E4E4; padding: 0 80px; margin: 0;}
-.main-frame-inner .form-class{ max-width:75%; margin-top: 30px;}
+.main-frame-inner .form-class{ max-width:78%; margin-top: 30px;}
 .main-frame-inner .form-class .form-label{ color: var(--label-color); font-size: 18px; font-weight: 500; }
 .main-frame-inner .form-class .tag-title{ 
   color: var(--label-color);
@@ -47,7 +47,7 @@
     font-size: 34px; font-family: var(--abril);
 }
 .form-class .membership-wr{  justify-content: flex-start; }
-.save-cancel-action{ display: flex; align-items: center; margin-top: 30px; }
+.save-cancel-action{ display: flex; align-items: center; margin-top: 40px; padding-bottom: 20px; }
 .save-cancel-action .nav-pills .nav-item{ margin: 0 16px 0 0;}
 .save-cancel-action .nav-pills .nav-link{ 
     border-radius: 0;
@@ -63,6 +63,16 @@
     font-family: var(--montserrat);
     font-weight: 500;
 }
+.resetPw .modal-header{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.resetPw .modal-header .btn-close{
+  position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
  
 .save-cancel-action .nav-pills .nav-link.active{ border: 1px solid var(--button-bg); background: transparent; }
  .save-cancel-action .btn{
@@ -96,11 +106,11 @@ margin: 16px 0 0 0;}
 .form-hints-container .direction-by .hints{ cursor: pointer; }
  .select-box{display: flex; }
  .select-box .form-select{ max-width: 125px; margin-right: 16px; }
-.right-panel .header {padding-bottom: 18px;
+.right-panel .header {padding-bottom: 26px;
   color: var(--light-black); font-family: var(--abril);
   font-size: 42px; border-bottom: 1px solid #E4E4E4; 
   margin: 0; margin-bottom: 30px; }
-.right-panel .main-frame-inner { padding: 0 50px 50px; } 
+.right-panel .main-frame-inner { padding: 0 80px 80px; } 
 .main-frame-inner .myevents-list:nth-child(odd){ background: var(--event-bg1);}
 .main-frame-inner .myevents-list:nth-child(even){ background: var(--event-bg2);  }
 .main-frame-inner .myevents-list{  padding: 16px;}
@@ -384,6 +394,9 @@ color: var(--button-text); font-size: 18px; font-weight: 500; border-radius: 0; 
 .allevents-wrapper .select-box{ max-width: 675px;}
 .allevents-wrapper .save-cancel-action .nav-pills .nav-item{  margin: 0 10px 16px 0; }
 .allevents-wrapper .save-cancel-action .nav-pills .nav-item .nav-link{ min-width: 110px;}
+.allevents-wrapper .save-cancel-action .nav-pills .nav-item .nav-link.active{ 
+  background: var(--button-text); color: var(--white);  border:1px solid var(--button-text);
+}
  
 .OrganizerDashboardApproved .check-radio-wrap .gender-part .cs-wrapper {
     margin: 5px 10px 5px 0; width: auto;
@@ -417,19 +430,40 @@ font-weight: 500; color: var(--para-light); margin: 10px 0; }
 .form-class .sub-iiner{ max-width: 550px;}
 .universalModal .modal-title{ 
   font-family: var(--abril);
-    color: var(--light-black);
-    font-size: 42px;
+  color: var(--light-black); font-size: 42px;
  }
 .universalModal .stepfrm-inner .header{ display: none;}
 .universalModal .modal-form{padding: 0 25px;}
 .universalModal .modal-header .btn-close{ 
   border: 1px solid var(--light-black); border-radius: 0; opacity: 1;
 }
-.universalModal .messagepreview-wrapper{
-  border: 16px solid var(--event-bg1); padding: 20px;
- }
+.universalModal .messagepreview-wrapper{ border: 16px solid var(--event-bg1); padding: 20px; }
 .universalModal .messagepreview-wrapper .message-title{ color: var(--light-black); font-size: 16px;
 font-family: var(--montserrat); margin-bottom: 16px; }
+.universalModal .download-format .format-head{ 
+  font-family: var(--montserrat); font-size: 25px; margin-bottom: 0;
+  color: var(--light-black);
+ }
+.universalModal .download-format .btn-view-event{ 
+ width: 100%; margin-top: 20px;
+ height: 52px; font-size: 18px; }
+.universalModal .copy-event .sub-header{
+  font-size: 17px; font-family: var(--montserrat); color: var(--label-colors);
+}
+.universalModal .copy-event .save-cancel-action .btn.btn-cancel{ margin: 0 16px 0 0 ;}
+.universalModal .copy-event .form-class { max-width: 100%;}
+.universalModal .modal-content{ border-radius: 0; padding: 16px;}
+.universalModal .success-modal .success-text{ 
+      font-size: 17px;
+    font-family: var(--montserrat);
+    color: var(--label-colors);
+}
+ .universalModal .successReset-modal{ padding:0 80px;}
+ .universalModal .successReset-modal .success-text{ font-size: 17px;
+    font-family: var(--montserrat); margin: 20px 0 0 0;
+    color: var(--label-colors);}
+ .universalModal .successReset-modal .success-text .login-now{ color: var(--button-bg); font-weight: 600;}
+
 .transaction-table thead::after{ display: none; }
 .transaction-table th{ text-align: left; }
 .transaction-table tbody tr:nth-child(odd){  background: var(--event-bg2); }
@@ -441,8 +475,20 @@ font-family: var(--montserrat); margin-bottom: 16px; }
 
 .ticket-table .cs-wrapper.table-checkbox{ width: 100%; height: 100%; }
 .ticket-table .cs-wrapper.table-checkbox .label-text{ font-size: 14px; margin-left: 5px; }
+
+.profImg{
+  padding-top: 20px;
+}
+.orgSetting{ display: flex; padding-top: 10px;}
+.orgSel .form-control{ color: #1f1e33; font-size: 18px; font-weight: 500;}
+.evnHdn{
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+.msBtn{ padding-bottom: 0;}
+
 @media ( max-width: 1400px){  
-    .universalModal .modal-title{ font-size: 30px;}
+ .universalModal .modal-title{ font-size: 30px;}
 .right-panel .main-frame-inner { padding: 0 20px 20px; } 
 .sidebar .nav .nav-item a{ font-size: 17px;}
 .myevents-list .content-inner .content-part .m-header{ font-size: 18px; }
@@ -499,6 +545,7 @@ font-family: var(--montserrat); margin-bottom: 16px; }
 }
 
 @media ( max-width: 991px){
+  .orgSetting{ flex-direction: column;}
 .dashboard-layout .dashboard-type .menu-icon{ display: block; cursor: pointer;}
 .leftpannel{    
   background-color: rgba(0, 0, 0, 0.5);
@@ -522,7 +569,7 @@ font-family: var(--montserrat); margin-bottom: 16px; }
 
  @media ( max-width: 768px){
 .myevents-list .content-inner{ flex-direction: column;}
-.myevents-list .content-inner .image-part { width: 100%!important; margin: 00!important;}
+.myevents-list .content-inner .image-part { width: 100%!important; margin: 0!important; object-fit: cover;}
 .myevents-list .content-inner .content-part{ margin-top: 20px;}
 .right-panel .main-frame-inner { padding: 0; }
 .myevents-list .inner-form-part .update-form .btn { font-size: 16px;}
@@ -538,6 +585,9 @@ font-family: var(--montserrat); margin-bottom: 16px; }
  }
 
  @media ( max-width: 576px){
+  .data-status-header .top-portion{ flex-direction: column; align-items: flex-start;}
+  .data-status-header .bottom-portion{ align-items: flex-start;}
+  .form-values.sendInvit p.text{ font-size: 30px;}
 .myevents-list .inner-form-part .table { min-width: 670px;}
 .myevents-list .inner-form-part .update-form{ flex-wrap: wrap;}
 .myevents-list .inner-form-part .update-form .btn{ width: 100%; margin: 10px 0; height: 46px;}

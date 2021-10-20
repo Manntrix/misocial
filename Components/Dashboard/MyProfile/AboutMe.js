@@ -49,6 +49,7 @@ export default function AboutMe() {
                     <Form.Label>Year Born</Form.Label>
                     <Form.Control type="date" />
                 </Form.Group>
+                {/* <input className="date-own form-control" type="text" /> */}
                 <div className="check-radio-wrap">
                     <div className="form-label">Occupation</div>
                     <div className="gender-part">
@@ -69,7 +70,7 @@ export default function AboutMe() {
                         </label>
                     </div>
                 </div>
-                <Form.Group className="mb-3"  >
+                <Form.Group className="mb-3 profImg"  >
                     <Form.Label>Profile Image</Form.Label>
                     <Form.Control type="file" hidden id="main-input" />
                     <div className="image-upload">

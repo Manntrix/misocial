@@ -35,7 +35,7 @@ export default function CreateEvent() {
                     </label>
                 </div>
 
-                <Form.Label className="section-name">Event Details</Form.Label>
+                <Form.Label className="section-name evnHdn">Event Details</Form.Label>
                 <p className="frmsub-title">When (Date & Time)</p>
                 <Row>
                     <Col sm={6}>
@@ -207,7 +207,8 @@ export default function CreateEvent() {
 
                     </div>
                 </div>
-                <p className="frmsub-title">Event organiser</p>
+                {/* <p className="frmsub-title">Event organiser</p> */}
+                <Form.Label className="section-name d-block evnHdn">Event organiser</Form.Label>
 
 
                 <Form.Group className="mb-3  " controlId="exampleForm.ControlInput2">

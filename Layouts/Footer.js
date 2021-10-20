@@ -15,7 +15,7 @@ export default function Footer() {
                 <Row>
                     <Col md={9} sm={9}>
 
-                        <Row>
+                        <Row className="footerGap">
                             <Col md={3} sm={3}>
                                 <div className="f-logo">
                                     <Image
@@ -24,7 +24,7 @@ export default function Footer() {
                                     />
                                 </div>
                             </Col>
-                            <Col md={3} sm={3}>
+                            <Col md={4} sm={4}>
                                 <h6 className="link-head">About</h6>
                                 <ul className="nav">
                                     <li className="nav-item">
@@ -59,7 +59,7 @@ export default function Footer() {
 
                                 </ul>
                             </Col>
-                            <Col md={3} sm={3}>
+                            <Col md={2} sm={2}>
                                 <h6 className="link-head">Legal</h6>
                                 <ul className="nav">
                                     <li className="nav-item">

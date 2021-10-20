@@ -13,7 +13,7 @@ export default function Events() {
                         <p className="subtitle"> From curated networking events that take the guesswork out of how to build your network, to bespoke workshops that enhance your personal / professional brand.</p>
                     </div></Col>
                     <Col sm={6}>
-                        <div className="img-box">
+                        <div className="img-box egntImagebg">
                             <Image src={eventImage} alt="eventImage" className="img-fluid" />
                         </div>
                     </Col>

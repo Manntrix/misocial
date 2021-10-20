@@ -48,16 +48,18 @@ export default function OrganizerSetting() {
                                             <span className="checkmark"></span>
                                             <p className="label-text">Active</p>
                                         </label>
-                                        <label className="cs-wrapper">
-                                            <input type="checkbox" />
-                                            <span className="checkmark"></span>
-                                            <p className="label-text">Disabled (by Admin)</p>
-                                        </label>
-                                        <label className="cs-wrapper">
-                                            <input type="checkbox" />
-                                            <span className="checkmark"></span>
-                                            <p className="label-text">Disabled (Expired Platinum Membership)</p>
-                                        </label>
+                                        <div className="orgSetting">
+                                            <label className="cs-wrapper">
+                                                <input type="checkbox" />
+                                                <span className="checkmark"></span>
+                                                <p className="label-text">Disabled (by Admin)</p>
+                                            </label>
+                                            <label className="cs-wrapper">
+                                                <input type="checkbox" />
+                                                <span className="checkmark"></span>
+                                                <p className="label-text">Disabled (Expired Platinum Membership)</p>
+                                            </label>
+                                        </div>
                                     </div>
                                 </div>
                                 <Form.Group className="mb-3  " controlId="exampleForm.ControlInput2">
@@ -74,7 +76,7 @@ export default function OrganizerSetting() {
                                 </Form.Group>
                                 <Form.Group className="mb-3 " controlId="exampleForm.ControlInput5">
                                     <Form.Label>Contact telephone number</Form.Label>
-                                    <div className="select-box">
+                                    <div className="select-box orgSel">
                                         <Form.Select className="form-control">
                                             <option defaultChecked>AUS +61</option>
                                             <option>Uk +4</option>
