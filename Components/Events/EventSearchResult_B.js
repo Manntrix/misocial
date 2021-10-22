@@ -8,7 +8,7 @@ import Pagination from '../../Layouts/Pagination';
 
 
 
-export default function EventSearchResult() {
+export default function EventSearchResult_B() {
     return (
         <div className="ev-search-result">
 
@@ -21,7 +21,7 @@ export default function EventSearchResult() {
                             className="image-style"
                         />
                         <div className="content">
-                            <div className="title-head"><a href="/event-details">Bunbury Toastmaster- Regular  Club Meeting</a></div>
+                            <div className="title-head"><a href="/event-details-B">Bunbury Toastmaster- Regular  Club Meeting</a></div>
                             <div className="time-date">
                                 <Image className="image-icon"
                                     src={calendarIcon}
@@ -33,7 +33,7 @@ export default function EventSearchResult() {
                                 Australia, AU, Aplus club</div>
 
                             <div className="action-section">
-                                <a href="/event-details" className="aBtnnew">View Event</a>
+                                <a href="/event-details-B" className="aBtnnew">View Event</a>
                                 
                                 <button className="btn btn-short">
                                     <GoPlus /> Shortlist

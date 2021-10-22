@@ -2,6 +2,7 @@
   .banner-container { max-width: 95%;}
 }
 @media (max-width: 1400px) {
+    .mxWdthead{ max-width: 90%;}
 .header-wraapper .login {  padding: 6px 30px; margin-right: 25px;}
 .banner-container .banner-content-wrap h2 { 
   font-size: 55px;
@@ -48,6 +49,9 @@
 .singleItem .content-wrap .action-section .btn { height: 52px;}
 }
 
+@media (max-width: 1200px) {
+    .mxWdthead{ max-width: 100%;}
+}
 @media (max-width: 991px) {
  .container{ max-width: 95%;}
  .singleItem .content-wrap .action-section .btn-view-event{ min-width: 175px; height: 58px;}
@@ -185,6 +189,9 @@
 }
 }
 @media (max-width: 576px) {
+    .formNextmodal .successReset-modal {
+        padding: 0 0px!important;
+    }
     .footer-wrapper{ text-align: center;}
     .footer-wrapper .nav .nav-item{ width: 100%; margin: 6px 0;}
     .footer-wrapper .nav .nav-item a {

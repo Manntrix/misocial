@@ -10,7 +10,8 @@ import { AiFillInstagram } from 'react-icons/ai';
 import { GrFormClose } from 'react-icons/gr';
 
 
-function Header() {
+function EventHeader() {
+    // const router = useRouter();
 
   const [show, setShow] = useState(false);
   const handleClick = () => {
@@ -32,6 +33,12 @@ function Header() {
         </Link>
       </div>
       <div className="other-part">
+        <Link href="../../dashboard/my-shortlist">
+          <a className="login">Short List</a>
+        </Link>
+        <Link href="/signup-step1">
+          <a className="login">Join Now</a>
+        </Link>
         <Link href="/login">
           <a className="login">Login</a>
         </Link>
@@ -57,7 +64,7 @@ function Header() {
             </Link>
           </li>
           <li className="nav-item">
-            <Link href="/events">
+            <Link href="/events_B">
               <a className="nav-link">Events</a>
             </Link>
           </li>
@@ -68,35 +75,26 @@ function Header() {
           </li>
           <li className="nav-item">
             <Link href="#">
-              <a className="nav-link">Become an Event Organizer</a>
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link href="/signup-step1">
-              <a href="#" className="nav-link">Join Now</a>
+              <a className="nav-link">My Dashboard</a>
             </Link>
           </li>
           <li className="nav-item">
             <Link href="/login">
-              <a className="nav-link">Log In</a>
+              <a className="nav-link">Log Out</a>
             </Link>
           </li>
-          {/* <li className="nav-item">
-            <Link href="/dashboard/my-profile">
-              <a className="nav-link">Dashboard</a>
-            </Link>
-          </li> */}
         </ul>
         <div className="trms">
-          <Link href="/terms-and-conditions">
+          <Link href="/terms-and-conditions_B">
             <a className="tc-link">Terms & Conditions </a>
           </Link>
-          <Link href="/privacy-policy">
+          <Link href="/privacy-policy_B">
             <a className="tc-link"> Privacy</a>
           </Link>
 
         </div>
-        <div className="social-media">
+        <br/>
+        {/* <div className="social-media">
           <Link href="#" >
             <a className="social-icon">
               <FaFacebookF />
@@ -122,7 +120,7 @@ function Header() {
               <FaYoutube />
             </a>
           </Link>
-        </div>
+        </div> */}
       </div>
 
     </div >)
@@ -130,4 +128,4 @@ function Header() {
 
 
 
-export default Header
+export default EventHeader;

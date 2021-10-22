@@ -1,5 +1,6 @@
 import { Col, Modal, Row, Table } from "react-bootstrap";
 import { useState } from "react";
+import Pagination from "../../../Layouts/Pagination";
 
 export default function EmailListTable() {
     const [show, setShow] = useState(false);
@@ -55,6 +56,10 @@ export default function EmailListTable() {
 
 
                 </div>
+
+                <div className="container">
+                <Pagination />
+            </div>
 
             </div>
 

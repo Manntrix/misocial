@@ -711,3 +711,58 @@ font-family: var(--abril); color: var(--black);}
 
 .sendInvit{ align-items: center; padding-top: 25px; padding-bottom: 15px;}
 .form-values.sendInvit p.text{ font-size: 46px;}
+
+.formNextmodal .modal-header{
+  border: none;
+}
+.formNextmodal p{
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #1F1F1F;
+}
+.formNextmodal .successReset-modal{
+  padding: 0 50px!important;
+}
+.forgetModal1 p{
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #1F1F1F;
+}
+.forgetModal1 .successReset-modal{
+  padding: 0 50px!important;
+}
+.forgetModal1 .modal-header{
+  border: none;
+}
+.dotsTxt{
+  font-size: 25px;
+  line-height: 20px;
+  color: #8d8d8d;
+  display: inline-block;
+  margin: 0;
+  padding: 0 10px 0 0;
+}
+.aBtnnew{
+  background: var(--button-bg);
+    min-width: 208px; height: 64px;
+  border-radius: 0;
+  color: var(--button-text);
+  font-size: 18px;
+  font-family: var(--montserrat);
+  font-weight: 500;
+  text-align: center;
+  line-height: 63px;
+}
+.aBtnnew:hover{ color: #fff;}
+.mxWdthead{ max-width: 80%;}
+
+.no-borders{ border-bottom: 0!important;}
+
+.pvrEvent{ padding-top: 80px;}
+.pvrEvent .header{
+  color: var(--light-black);
+    font-family: var(--abril);
+    font-size: 42px;
+}

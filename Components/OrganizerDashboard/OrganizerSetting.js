@@ -172,7 +172,7 @@ export default function OrganizerSetting() {
                                         </span>
                                         <a></a>
                                     </label>
-                                    <p className="text">I have read and agree to the <span>Organizer Terms & Conditions</span> </p>
+                                    <p className="text">I have read and agree to the <a href="/organizer-terms">Organizer Terms &amp; Conditions</a> </p>
                                 </div>
 
                                 <button className="btn btn-next">Save</button>

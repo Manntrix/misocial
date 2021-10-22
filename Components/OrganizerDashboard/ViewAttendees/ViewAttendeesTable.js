@@ -1,4 +1,5 @@
 import { Form, Tab, Table } from "react-bootstrap";
+import Pagination from "../../../Layouts/Pagination";
 
 export default function ViewAttendeesTable() {
     return (
@@ -54,6 +55,10 @@ export default function ViewAttendeesTable() {
                         </tr>
                     </tbody>
                 </Table>
+
+                <div className="container">
+                <Pagination />
+            </div>
 
                 <div className="save-cancel-action">
                     <button className="btn btn-next">Download Attendees PDF</button>

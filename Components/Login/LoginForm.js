@@ -28,7 +28,7 @@ export default function LoginForm() {
                         </Link>
 
                     </div>
-                    <button className="btn btn-next">Login</button>
+                    <button className="btn btn-next"><Link href="/index_B">Login</Link></button>
                 </Form>
                 <p className="members-already">Already a Member?
                     <Link href="/signup-step1">

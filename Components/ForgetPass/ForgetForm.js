@@ -30,7 +30,7 @@ export default function ForgetForm() {
             </div>
 
 
-            <Modal show={show} onHide={handleClose} className="universalModal ">
+            <Modal show={show} onHide={handleClose} className="universalModal forgetModal1">
                 <Modal.Header closeButton>
 
                 </Modal.Header>
@@ -42,11 +42,14 @@ export default function ForgetForm() {
                                 alt="successTick"
 
                             />
-                            <Modal.Title>Password updated</Modal.Title>
-                            <p className="success-text">
+                            {/* <Modal.Title>Password updated</Modal.Title> */}
+                            <p>We've sent you an email on how to reset your password. 
+In the next 24 hours open the email and follow the steps outlined to create a new password.</p>
+<button className="btn btn-next">Click Here To Return To Our Home Page</button>
+                            {/* <p className="success-text">
                                 You have successfully changed your password.
                                 You can   <Link href="/login"><a className="login-now">Login</a></Link> now.
-                            </p>
+                            </p> */}
                         </div>
                     </div>
                 </Modal.Body>

@@ -5,6 +5,7 @@ import myeventImage from '../../../public/images/myeventImage.jpg';
 import { Col, Form, Modal, Nav, Row, Tab } from "react-bootstrap";
 import ShowTicketTable from './ShowTicketTable';
 import { useState } from 'react';
+import Link from 'next/link'
 
 
 export default function AllEventsForm() {
@@ -50,7 +51,11 @@ export default function AllEventsForm() {
                             </Nav.Item>
 
                             <Nav.Item>
-                                <Nav.Link eventKey="preview">Preview</Nav.Link>
+                                <Link href="/previewEvent">
+                                    <Nav.Link eventKey="preview" type="button">
+                                        Preview
+                                    </Nav.Link>
+                                </Link>
                             </Nav.Item>
 
                             <Nav.Item>
@@ -152,7 +157,11 @@ export default function AllEventsForm() {
                             </Nav.Item>
 
                             <Nav.Item>
-                                <Nav.Link eventKey="preview">Preview</Nav.Link>
+                                <Link href="/previewEvent">
+                                    <Nav.Link eventKey="preview" type="button">
+                                        Preview
+                                    </Nav.Link>
+                                </Link>
                             </Nav.Item>
 
                             <Nav.Item>
@@ -252,7 +261,11 @@ export default function AllEventsForm() {
                             </Nav.Item>
 
                             <Nav.Item>
-                                <Nav.Link eventKey="preview">Preview</Nav.Link>
+                                <Link href="/previewEvent">
+                                    <Nav.Link eventKey="preview" type="button">
+                                        Preview
+                                    </Nav.Link>
+                                </Link>
                             </Nav.Item>
 
                             <Nav.Item>
@@ -317,7 +330,11 @@ export default function AllEventsForm() {
                             </Nav.Item>
 
                             <Nav.Item>
-                                <Nav.Link eventKey="preview">Preview</Nav.Link>
+                                <Link href="/previewEvent">
+                                    <Nav.Link eventKey="preview" type="button">
+                                        Preview
+                                    </Nav.Link>
+                                </Link>
                             </Nav.Item>
 
                             <Nav.Item>
@@ -382,7 +399,11 @@ export default function AllEventsForm() {
                             </Nav.Item>
 
                             <Nav.Item>
-                                <Nav.Link eventKey="preview">Preview</Nav.Link>
+                                <Link href="/previewEvent">
+                                    <Nav.Link eventKey="preview" type="button">
+                                        Preview
+                                    </Nav.Link>
+                                </Link>
                             </Nav.Item>
 
                             <Nav.Item>

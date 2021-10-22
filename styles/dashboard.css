@@ -393,7 +393,7 @@ color: var(--button-text); font-size: 18px; font-weight: 500; border-radius: 0; 
  .allevents-wrapper .check-radio-wrap .gender-part .cs-wrapper { margin:5px 0; width: 100%; }
 .allevents-wrapper .select-box{ max-width: 675px;}
 .allevents-wrapper .save-cancel-action .nav-pills .nav-item{  margin: 0 10px 16px 0; }
-.allevents-wrapper .save-cancel-action .nav-pills .nav-item .nav-link{ min-width: 110px;}
+.allevents-wrapper .save-cancel-action .nav-pills .nav-item .nav-link{ min-width: 110px; cursor: default;}
 .allevents-wrapper .save-cancel-action .nav-pills .nav-item .nav-link.active{ 
   background: var(--button-text); color: var(--white);  border:1px solid var(--button-text);
 }
