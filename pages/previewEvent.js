@@ -6,10 +6,10 @@ export default function EventDetails() {
     return (
         <div className="event-details-wr">
             <EventBanner />
-            <div class="pvrEvent">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
+            <div className="pvrEvent">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-12">
                         <div className="data-status-header no-borders">
                             <div className="top-portion">
                                 <h2 className="header ">Preview Event</h2>

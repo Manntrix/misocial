@@ -65,8 +65,8 @@ export default function FormSection() {
                         <p className="text"> I want   receive MiSocial news, offers and promotions</p>
                     </div>
 
-                    {/* <button className="btn btn-next" onClick={handleShow} type="button">Next</button> */}
-                    <button className="btn btn-next">Next</button>
+                    <button className="btn btn-next" onClick={handleShow} type="button">Next</button>
+                    {/* <button className="btn btn-next">Next</button> */}
                 </Form>
                 <p className="members-already">Already a Member?
                     <Link href="login"> Login Now</Link>
@@ -88,7 +88,7 @@ export default function FormSection() {
                             {/* <Modal.Title>Password updated</Modal.Title> */}
                             <p>Open the email we just sent you and confirm your email. You may need to check your spam folder and ensure emails from <strong>no-reply@misocial.net</strong> are not blocked. 
                             <br/><br/>We look forward to seeing you soon! </p>
-                            <button class="btn btn-next" type="button">Click Here To Return To Our Home Page</button>
+                            <button className="btn btn-next" type="button">Click Here To Return To Our Home Page</button>
                         </div>
                     </div>
                 </Modal.Body>

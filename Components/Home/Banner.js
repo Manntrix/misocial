@@ -1,5 +1,7 @@
 import { Button, Form, FormControl } from "react-bootstrap";
-import Header from "../../Layouts/Header"
+import Header from "../../Layouts/Header";
+import Link from 'next/link';
+
 
 const Banner = () => (
   <>
@@ -22,7 +24,7 @@ const Banner = () => (
               className="mr-2"
               aria-label="Search"
             />
-            <button className="btn btn-join-now">Join Now</button>
+            <button className="btn btn-join-now"><Link href="/signup-step1">Join Now</Link></button>
           </Form>
 
         </div>

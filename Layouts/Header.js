@@ -67,7 +67,7 @@ function Header() {
             </Link>
           </li>
           <li className="nav-item">
-            <Link href="#">
+            <Link href="#becomeorg">
               <a className="nav-link">Become an Event Organizer</a>
             </Link>
           </li>

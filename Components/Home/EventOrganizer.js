@@ -4,7 +4,7 @@ import organizer from '../../public/images/organizer.jpg';
 
 export default function EventOrganizer() {
     return (
-        <div className="organizer-wrapper">
+        <div className="organizer-wrapper" id="becomeorg">
             <div className="container">
                 <Row>
                     <Col md={5} className="evOrg">
