@@ -1,6 +1,7 @@
 import Head from "next/head";
 import EventsBanner from '../Components/Events/EventsBanner';
-import EventsContent from '../Components/Events/EventsContent'
+import EventsContent from '../Components/Events/EventsContent';
+import Footer  from '../Layouts/Footer';
 
 export default function Events() {
     return (
@@ -12,6 +13,7 @@ export default function Events() {
             </Head>
             <EventsBanner />
             <EventsContent />
+            <Footer/>
 
         </div>
     )

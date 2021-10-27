@@ -5,6 +5,7 @@ import calendarIcon from '../../public/images/calendarIcon.png';
 import { GoPlus } from 'react-icons/go';
 import { IoLocationOutline } from 'react-icons/io5'
 import Pagination from '../../Layouts/Pagination';
+import Link from 'next/link'
 
 
 
@@ -35,9 +36,11 @@ export default function EventSearchResult() {
                             <div className="action-section">
                                 <a href="/event-details" className="aBtnnew">View Event</a>
                                 
+                                <Link href="/dashboard/my-shortlist">
                                 <button className="btn btn-short">
-                                    <GoPlus /> Shortlist
+                                 <GoPlus /> Shortlist
                                 </button>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -67,9 +70,12 @@ export default function EventSearchResult() {
                                 <button className="btn btn-view-event">
                                     View Event
                                 </button>
+
+                                <Link href="/dashboard/my-shortlist">
                                 <button className="btn btn-short">
                                     <GoPlus /> Shortlist
                                 </button>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -99,9 +105,12 @@ export default function EventSearchResult() {
                                 <button className="btn btn-view-event">
                                     View Event
                                 </button>
+
+                                <Link href="/dashboard/my-shortlist">
                                 <button className="btn btn-short">
                                     <GoPlus /> Shortlist
                                 </button>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -131,9 +140,11 @@ export default function EventSearchResult() {
                                 <button className="btn btn-view-event">
                                     View Event
                                 </button>
+                                <Link href="/dashboard/my-shortlist">
                                 <button className="btn btn-short">
                                     <GoPlus /> Shortlist
                                 </button>
+                                </Link>
                             </div>
                         </div>
                     </div>

@@ -1,6 +1,7 @@
 import Head from "next/head";
 import EventsBanner_B from '../Components/Events/EventsBanner_B';
-import EventsContent_B from '../Components/Events/EventsContent_B'
+import EventsContent_B from '../Components/Events/EventsContent_B';
+import Footer  from '../Layouts/Footer';
 
 export default function Events_B() {
     return (
@@ -12,6 +13,8 @@ export default function Events_B() {
             </Head>
             <EventsBanner_B />
             <EventsContent_B />
+            <Footer/>
+            
 
         </div>
     )

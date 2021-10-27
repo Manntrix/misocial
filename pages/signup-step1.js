@@ -6,6 +6,8 @@ import Button from 'react-bootstrap/Button';
 import Image from "next/image";
 import successTick from '../public/images/successTick.png';
 import { useState } from "react";
+import FooterBanner from '../Components/Home/FooterBanner';
+import Footer  from '../Layouts/Footer';
  
 
 export default function SignupOne() {
@@ -36,7 +38,7 @@ export default function SignupOne() {
               </Modal.Body>
       </Modal.Dialog> */}
 
-
+<Footer/>
     </div>
   )
 }

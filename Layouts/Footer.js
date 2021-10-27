@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Col, Form, FormControl, Row } from "react-bootstrap";
-import logo from '../public/images/misocial-logo.svg';
+import logo from '../public/images/footerlogo.png';
 import sendIcon from '../public/images/sendIcon.png';
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaYoutube } from 'react-icons/fa';
 import { AiFillInstagram } from 'react-icons/ai';
